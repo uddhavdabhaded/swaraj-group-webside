@@ -14,3 +14,8 @@ Upload everything inside the `dist` folder to your hosting (Hostinger, Netlify, 
 ## Change your details
 Open `src/config.js` – phone number, email and plot status (available / booked) are there.
 Images are in `src/assets`. Colours and design are in `src/index.css`.
+
+## Deploy on Netlify
+Option A (easiest): drag the `dist` folder (or swaraj-netlify-dist.zip) into https://app.netlify.com/drop
+Option B (GitHub): push this project to GitHub, then in Netlify choose "Import from Git".
+  Build command: npm run build   |   Publish directory: dist   (already set in netlify.toml)
